@@ -1,7 +1,7 @@
 var recipes = {}
 
-<<<<<<< HEAD
-/*function updateObjectWithKeyAndValue(object, key, value ) {
+/*<<<<<<< HEAD
+function updateObjectWithKeyAndValue(object, key, value ) {
 var object = {key: value}
 var copy = Object.assign({}, object, {key: value})
 return object
