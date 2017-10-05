@@ -11,7 +11,7 @@ return copy
 */
 
 function updateObjectWithKeyAndValue(object, key, value) {
-  return Object.assign({}, object, {[key]: value })
+  return Object.assign({}, object, {object[key]: value })
 }
 
 
@@ -36,5 +36,5 @@ function destructivelyDeleteFromObjectByKey(object, key){
 function updateObjectWithKeyAndValue(object, key, value ) {
   var og = Object.assign({}, object, key, value)
   var copy = Object.assign({},object, key, value)
-  return copy
+  return
 }
