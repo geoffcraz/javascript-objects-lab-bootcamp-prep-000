@@ -20,13 +20,14 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   return object
 }
 
-destructivelyUpdateObjectWithKeyAndValue(sunshine, "doesn't", rain)
-/*
+
+
 function deleteFromObjectByKey(object, key){
   const newObj = Object.assign({}, object)
   delete newObj[key]
   return newObj
 }
+
 
 function destructivelyDeleteFromObjectByKey(object, key){
   delete object[key]
@@ -37,4 +38,3 @@ function updateObjectWithKeyAndValue(object, key, value ) {
   var copy = Object.assign({},object, key, value)
   return copy
 }
-*/
